@@ -24,5 +24,4 @@ RSpec.describe Book, type: :model do
     subject.price = nil
     expect(subject).not_to be_valid
   end
-  
 end

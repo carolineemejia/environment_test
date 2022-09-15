@@ -38,5 +38,4 @@ RSpec.describe 'Creating a book', type: :feature do
     click_on 'Create Book'
     expect(page).to have_content("Price can't be blank")
   end
-  
 end
