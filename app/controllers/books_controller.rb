@@ -25,11 +25,16 @@ class BooksController < ApplicationController
 
     respond_to do |format|
       if @book.save
+<<<<<<< HEAD
         # format.html { redirect_to book_url(@book), notice: "Book was successfully created." }
         # format.json { render :show, status: :created, location: @book }
 
         format.html { redirect_to books_url, notice:  "Book was successfully created." }
         format.json { head :no_content }
+=======
+        format.html { redirect_to book_url(@book), notice: "Book was successfully created." }
+        format.json { render :show, status: :created, location: @book }
+>>>>>>> dfdd2fe7e7d3ea54732b0c382b8c259f6256f507
       else
         format.html { render :new, status: :unprocessable_entity }
         format.json { render json: @book.errors, status: :unprocessable_entity }
@@ -41,11 +46,16 @@ class BooksController < ApplicationController
   def update
     respond_to do |format|
       if @book.update(book_params)
+<<<<<<< HEAD
         # format.html { redirect_to book_url(@book), notice: "Book was successfully updated." }
         # format.json { render :show, status: :ok, location: @book }
         
         format.html { redirect_to books_url, notice:  "Book was successfully updated." }
         format.json { head :no_content }
+=======
+        format.html { redirect_to book_url(@book), notice: "Book was successfully updated." }
+        format.json { render :show, status: :ok, location: @book }
+>>>>>>> dfdd2fe7e7d3ea54732b0c382b8c259f6256f507
       else
         format.html { render :edit, status: :unprocessable_entity }
         format.json { render json: @book.errors, status: :unprocessable_entity }
@@ -71,6 +81,10 @@ class BooksController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def book_params
+<<<<<<< HEAD
       params.require(:book).permit(:title, :author, :price, :published_date)
+=======
+      params.require(:book).permit(:title)
+>>>>>>> dfdd2fe7e7d3ea54732b0c382b8c259f6256f507
     end
 end
