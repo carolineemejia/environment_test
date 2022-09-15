@@ -37,7 +37,10 @@ end
 
 group :development do
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 2446878c2ae0f7c3307082297d587efec3d8ed7e
   # Brakeman is a static analysis tool which checks Ruby on Rails applications for security vulnerabilities.
   # gem 'brakeman'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
@@ -100,7 +103,10 @@ group :development, :test do
 end
 
 group :development do
+<<<<<<< HEAD
 >>>>>>> dfdd2fe7e7d3ea54732b0c382b8c259f6256f507
+=======
+>>>>>>> 2446878c2ae0f7c3307082297d587efec3d8ed7e
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 4.1.0'
   # Display performance information such as SQL time and flame graphs for each request in your browser.
@@ -124,8 +130,13 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'brakeman'
 <<<<<<< HEAD
+<<<<<<< HEAD
 gem 'rubocop'
 =======
 gem 'rubocop'
 >>>>>>> fc3c4d6be118f610a61653ec487842ca810acddd
 >>>>>>> dfdd2fe7e7d3ea54732b0c382b8c259f6256f507
+=======
+gem 'rubocop'
+>>>>>>> fc3c4d6be118f610a61653ec487842ca810acddd
+>>>>>>> 2446878c2ae0f7c3307082297d587efec3d8ed7e
