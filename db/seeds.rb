@@ -6,5 +6,5 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 Book.create!([
-    [{title: 'Aggies'}, {title: 'WorkPlz'}]
+    {title: 'Aggies', author: 'Rev', price: '20.23', published_date: '2020-01-23'}, 
 ])
