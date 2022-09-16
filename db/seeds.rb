@@ -7,4 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 Book.create!([
     {title: 'Aggies', author: 'Rev', price: '20.23', published_date: '2020-01-23'}, 
+    {title: 'MySadLife', author: 'Me', price: '1.23', published_date: '2021-01-23'}
 ])
