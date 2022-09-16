@@ -2,6 +2,18 @@
 
 one:
   title: MyString
+<<<<<<< HEAD
+  author: MyString
+  price: 1.5
+  published_date: 2022-09-15
 
 two:
   title: MyString
+  author: MyString
+  price: 1.5
+  published_date: 2022-09-15
+=======
+
+two:
+  title: MyString
+>>>>>>> 2446878c2ae0f7c3307082297d587efec3d8ed7e
