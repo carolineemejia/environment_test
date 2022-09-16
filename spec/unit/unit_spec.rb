@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # location: spec/unit/unit_spec.rb
 require 'rails_helper'
 
@@ -26,40 +24,4 @@ RSpec.describe Book, type: :model do
     subject.price = nil
     expect(subject).not_to be_valid
   end
-=======
-# location: spec/unit/unit_spec.rb
-require 'rails_helper'
-
-RSpec.describe Book, type: :model do
-  subject do
-    described_class.new(title: 'harry potter')
-  end
-
-  it 'is valid with valid attributes' do
-    expect(subject).to be_valid
-  end
-
-  it 'is not valid without a name' do
-    subject.title = nil
-    expect(subject).not_to be_valid
-  end
->>>>>>> dfdd2fe7e7d3ea54732b0c382b8c259f6256f507
-=======
-# location: spec/unit/unit_spec.rb
-require 'rails_helper'
-
-RSpec.describe Book, type: :model do
-  subject do
-    described_class.new(title: 'harry potter')
-  end
-
-  it 'is valid with valid attributes' do
-    expect(subject).to be_valid
-  end
-
-  it 'is not valid without a name' do
-    subject.title = nil
-    expect(subject).not_to be_valid
-  end
->>>>>>> 2446878c2ae0f7c3307082297d587efec3d8ed7e
 end
